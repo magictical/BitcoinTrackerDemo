@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     mPriceTextView.setText(String.valueOf(priceNow));
 
                 } catch (Exception e) {
+                    e.printStackTrace();
                     Log.e("Bitcoin", e.toString());
                 }
             }
